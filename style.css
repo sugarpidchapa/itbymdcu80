@@ -4,8 +4,10 @@ body h0 {
 *{
     scroll-behavior: smooth;
 }
-header{
+header {
     position: fixed;
     display: block;
     right: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40pt;
 }
