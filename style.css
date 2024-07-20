@@ -4,8 +4,48 @@ body h0 {
 *{
     scroll-behavior: smooth;
 }
-header{
-    position: fixed;
-    display: block;
-    right: 0;
+.btn{
+    background-color: #ffffff; /* Green background */
+    border: 1px solid rgb(63, 136, 106);
+    color: #3f886a; /* White text */
+    padding: 24px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    
+
+}
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .btnBIG{
+    background-color: #ffffff; /* Green background */
+    border: 1px solid rgb(63, 136, 106);
+    color: #3f886a; /* White text */
+     /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    text-align: left;
+    vertical-align: middle;
+    padding: 0px 0px
+}
+a{
+    vertical-align: middle;
+    text-decoration-line: none;
+    text-align: center;
+    color: #3f886a;
+    font-weight: bold;
+}
+  .pic{
+    
+    color: #3f886a; /* White text */
+    padding: 1px 1px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+
+.pic img{
+    margin-left: 10px;
+    vertical-align: middle;
 }
