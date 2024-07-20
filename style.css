@@ -4,6 +4,11 @@ body h0 {
 *{
     scroll-behavior: smooth;
 }
+header{
+    
+    display: block;
+    left: 0;
+}
 .btn{
     background-color: #ffffff; /* Green background */
     border: 1px solid rgb(63, 136, 106);
@@ -47,5 +52,6 @@ a{
 
 .pic img{
     margin-left: 10px;
-    vertical-align: middle;
+    vertical-align: left;
 }
+
