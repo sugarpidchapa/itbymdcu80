@@ -9,6 +9,8 @@ pages
 
 3.staffs (by... &...)
 
+4.projects
+
 
 design (by... &...)
 
