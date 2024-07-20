@@ -7,5 +7,31 @@ body h0 {
 header{
     position: fixed;
     display: block;
-    right: 0;
+    left: 0;
+}
+.btn{
+    background-color: #ffffff; /* Green background */
+    border: 1px solid rgb(63, 136, 106);
+    color: #3f886a; /* White text */
+    padding: 24px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+
+}
+.pic{
+    background-color: #f8f8f8; /* Green background */
+    border: 1px solid rgb(63, 136, 106);
+    color: #3f886a; /* White text */
+    padding: 1px 2px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+.pic img{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.image {
+    margin-right: 10px;
+}  
 }
