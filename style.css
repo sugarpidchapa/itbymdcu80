@@ -11,11 +11,11 @@ Html, body{
     overflow-x: hidden;
 }
 
-.header{
+header{
     position: fixed;
     display: block;
     width: 100%;
-    background-color: rgb(2,105,55);
+    /*background-color: rgb(2,105,55);
     padding: 10px;
     top: 0; /*เลื่อน nav bar ให้ด้านบนสุดไม่มีช่องว่าง*/
 
