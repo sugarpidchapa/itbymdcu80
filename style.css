@@ -42,9 +42,12 @@ Html, body{
     width: 25%;
     padding: 20px;
     margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .content{
     background-color: antiquewhite;
     padding: 20px;
+    border-radius: 15px;
 }
