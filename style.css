@@ -136,3 +136,19 @@ hr {
     padding: 20px;
     border-radius: 15px;
 }
+
+.flex_container {
+    display: flex;
+    flex-direction: row; /* horizontal layout */
+    justify-content: top; /* Center items vertically */
+    align-items: left; /* Center items horizontally */
+    height: 100vh;
+}
+
+.location {
+    width: 50%;
+}
+
+.contact {
+    width: 50%;
+}
