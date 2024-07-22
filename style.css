@@ -3,12 +3,15 @@ body h0 {
 }
 *{
     scroll-behavior: smooth;
+    scroll-padding: 60px;
+}
 }
 header{
     position: fixed;
     display: block;
     right: 0;
     left: 0;
+    top: 0; /*เลื่อน nav bar ให้ด้านบนสุดไม่มีช่องว่าง*/
 }
 .btn{
     background-color: #ffffff; /* Green background */
