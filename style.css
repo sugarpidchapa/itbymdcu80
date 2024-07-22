@@ -71,6 +71,15 @@ header{
     margin-right: 10px;
 }  
 
+.home img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.texthome {
+    text-align: center;
+}
 
 p {
     margin-left: 5%;
