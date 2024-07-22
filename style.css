@@ -1,18 +1,55 @@
 body h0 {
     background-color: rgb(2,105,55);
 }
+
 *{
     scroll-behavior: smooth;
     scroll-padding: 60px;
 }
 }
-header{
+
+Html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header{
     position: fixed;
     display: block;
-    right: 0;
-    left: 0;
+    width: 100%;
+    background-color: rgb(2,105,55);
+    padding: 10px;
     top: 0; /*เลื่อน nav bar ให้ด้านบนสุดไม่มีช่องว่าง*/
+
 }
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.flexbox{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: stretch;
+}
+
+.item{
+    display: block;
+    box-sizing: border-box;
+    width: 25%;
+    padding: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .btn{
     background-color: #ffffff; /* Green background */
     border: 1px solid rgb(63, 136, 106);
@@ -88,4 +125,10 @@ li {
 
 hr {
     border-top: 1px dashed rgb(71, 83, 73);
+}
+
+.content{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 15px;
 }
