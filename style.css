@@ -33,16 +33,18 @@ Html, body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
+    align-items: stretch;
 }
 
 .item{
     display: block;
     box-sizing: border-box;
     width: 25%;
+    padding: 20px;
+    margin-bottom: 5px;
 }
 
 .content{
     background-color: antiquewhite;
     padding: 20px;
-    margin-bottom: 30px;
 }
