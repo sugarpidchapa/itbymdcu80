@@ -75,3 +75,14 @@ h5 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18pt;
       }
+
+
+li {
+    display: inline-block;
+    width: 350px;
+}
+
+
+hr {
+    border-top: 1px dashed rgb(71, 83, 73);
+}
