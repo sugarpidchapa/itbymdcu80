@@ -1,26 +1,71 @@
 body h0 {
     background-color: rgb(2,105,55);
 }
+
 *{
     scroll-behavior: smooth;
+    scroll-padding: 60px;
 }
-header{
+
+Html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header{
     position: fixed;
     display: block;
+    width: 100%;
+    background-color: rgb(2,105,55);
+    padding: 10px;
     right: 0;
     left: 0;
 }
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.flexbox{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: stretch;
+}
+
+.item{
+    display: block;
+    box-sizing: border-box;
+    width: 25%;
+    padding: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 15px;
+}
 .btn{
-    background-color: #ffffff; /* Green background */
+    background-color: #3f886a; /* Green background */
     border: 1px solid rgb(63, 136, 106);
-    color: #3f886a; /* White text */
+    color: #ffffff; /* White text */
     padding: 24px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
-
+    transition: color 0.5s ease-in-out 0.05ms;
+    transition: background-color 0.5s ease-in-out 0.05ms;
 }
 .pic{
-    background-color: #f8f8f8; /* Green background */
+    background-color:#ffffff ; /* Green background */
     border: 1px solid rgb(63, 136, 106);
     color: #3f886a; /* White text */
     padding: 1px 2px; /* Some padding */
@@ -35,3 +80,75 @@ header{
 .image {
     margin-right: 10px;
 }  
+
+.home img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.texthome1 {
+    text-align: center;
+    font-size: 75%;
+}
+
+.texthome2 {
+    text-align: center;
+    font-size: 40%;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 15pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin: 6%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45pt;
+}
+
+h2 {
+    margin-left: 4%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25pt;
+}
+
+h3 {
+    margin-left: 6%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23pt;
+}
+
+h4 {
+    margin-left: 6%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+}
+    
+h5 {
+    margin-left: 6%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18pt;
+      }
+
+
+li {
+    display: inline-block;
+    width: 350px;
+}
+
+
+hr {
+    border-top: 1px dashed rgb(71, 83, 73);
+}
+
+.content{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 15px;
+}
