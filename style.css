@@ -52,7 +52,7 @@ header{
     background-color: #ffffff; /* Green background */
     border: 1px solid rgb(63, 136, 106);
     color: #3f886a; /* White text */
-    padding: 24px 24px; /* Some padding */
+    padding: 23.5px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
     transition: color 0.5s ease-in-out 0.05ms;
