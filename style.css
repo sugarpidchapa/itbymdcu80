@@ -1,6 +1,8 @@
+
 body h0 {
     background-color: rgb(2,105,55);
 }
+
 
 *{
     scroll-behavior: smooth;
@@ -15,6 +17,7 @@ Html, body{
     overflow-x: hidden;
 }
 
+
 .header{
     position: fixed;
     display: block;
@@ -23,6 +26,13 @@ Html, body{
     padding: 10px;
     right: 0;
     left: 0;
+}
+
+
+
+.btn:hover{
+    background-color: rgb(2,105,55);
+    color: white;
 }
 
 .link{
@@ -49,11 +59,13 @@ Html, body{
     flex-wrap: wrap;
 }
 
+
 .content{
     background-color: antiquewhite;
     padding: 20px;
     border-radius: 15px;
 }
+
 .btn{
     background-color: #3f886a; /* Green background */
     border: 1px solid rgb(63, 136, 106);
