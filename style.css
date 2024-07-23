@@ -81,8 +81,14 @@ header{
     display: block;
 }
 
-.texthome {
+.texthome1 {
     text-align: center;
+    font-size: 75%;
+}
+
+.texthome2 {
+    text-align: center;
+    font-size: 40%;
 }
 
 p {
