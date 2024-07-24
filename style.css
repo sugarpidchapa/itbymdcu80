@@ -13,12 +13,12 @@ Html, body{
 }
 
 
-.header{
+header{
     position: fixed;
     display: block;
     width: 100%;
-    background-color: rgb(2,105,55);
-    padding: 10px;
+    /*background-color: rgb(2,105,55);
+    padding: 10px;*/
     right: 0;
     left: 0;
 }
