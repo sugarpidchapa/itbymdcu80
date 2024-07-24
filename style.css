@@ -1,3 +1,4 @@
+
 *{
     scroll-behavior: smooth;
     scroll-padding: 60px;
@@ -11,13 +12,18 @@ Html, body{
     overflow-x: hidden;
 }
 
-header{
+
+.header{
     position: fixed;
     display: block;
     width: 100%;
-    /*background-color: rgb(2,105,55);
-    padding: 10px;*/
+    background-color: rgb(2,105,55);
+    padding: 10px;
+    right: 0;
+    left: 0;
 }
+
+
 
 .btn:hover{
     background-color: rgb(2,105,55);
@@ -48,18 +54,25 @@ header{
     flex-wrap: wrap;
 }
 
+
+.content{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 15px;
+}
+
 .btn{
-    background-color: #ffffff; /* Green background */
+    background-color: #3f886a; /* Green background */
     border: 1px solid rgb(63, 136, 106);
-    color: #3f886a; /* White text */
-    padding: 23.5px 24px; /* Some padding */
+    color: #ffffff; /* White text */
+    padding: 24px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
     transition: color 0.5s ease-in-out 0.05ms;
     transition: background-color 0.5s ease-in-out 0.05ms;
 }
 .pic{
-    background-color: #f8f8f8; /* Green background */
+    background-color:#ffffff ; /* Green background */
     border: 1px solid rgb(63, 136, 106);
     color: #3f886a; /* White text */
     padding: 1px 2px; /* Some padding */
